@@ -18,7 +18,6 @@ def blur_detect(img, threshold):
     # Convert image to grayscale
     Y = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
-    
     M, N = Y.shape
     
     # Crop input image to be 3 divisible by 2
@@ -37,6 +36,7 @@ def blur_detect(img, threshold):
     E3 = np.sqrt(np.power(LH3, 2)+np.power(HL3, 2)+np.power(HH3, 2))
     
     M1, N1 = E1.shape
+    print(M1, N1, E1.shape)
 
     # Sliding window size level 1
     sizeM1 = 8
@@ -173,7 +173,27 @@ def find_images(input_dir):
             if os.path.splitext(file)[1].lower() in extensions:
                 yield os.path.join(root, file)
                 
-                
+aspect_ratios = ['1:1', '4:3', '14:9', '16:10', '16:9', '37:20', '2:1', '21:9']                
+def get_resolution(aspect_ratio):
+    if(aspect_ratio == '1:1'):
+        return (600, 600)
+    elif(aspect_ratio == '4:3'):
+        return (800, 600)
+    elif(aspect_ratio == '14:9'):
+        return (1400, 900)
+    elif(aspect_ratio == '16:10'):
+        return (1280, 800)
+    elif(aspect_ratio == '16:9'):
+        return (1280, 720)
+    elif(aspect_ratio == '37:20'):
+        return (1850, 1000)
+    elif(aspect_ratio == '2:1'):
+        return (1200, 600)
+    elif(aspect_ratio == '21:9'):
+        return (2100, 900)
+    else:
+        return (1280, 720)
+    
 if __name__ == '__main__':                
     parser = argparse.ArgumentParser(description='run Haar Wavelet blur detection on a folder')
     parser.add_argument('-i', '--input_dir', dest="input_dir", type=str, required=True, help="directory of images")
@@ -207,27 +227,3 @@ if __name__ == '__main__':
         with open(args.save_path, 'w') as outfile:
             json.dump(results, outfile, sort_keys=True, indent=4)
             outfile.write("\n")
-        
-        
-        
-    
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
