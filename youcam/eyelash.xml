@@ -1,0 +1,303 @@
+<eye_lash>
+	<patterns>
+		<!-- 2_01 -->
+		<pattern guid="patten_eyelash_02_04" thumbnail="eyelash/thumb/patten_eyelash_02_04.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/02_04_01.png" />
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="lower" src="eyelash/02_04_02.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 2_02 -->
+		<pattern guid="patten_eyelash_02_01" thumbnail="eyelash/thumb/patten_eyelash_02_01.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/02_01_01.png" />
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="lower" src="eyelash/02_01_02.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 2_03 -->
+		<pattern guid="patten_eyelash_02_03" thumbnail="eyelash/thumb/patten_eyelash_02_03.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/02_03_01.png" />
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="lower" src="eyelash/02_03_02.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 2_04 -->
+		<pattern guid="patten_eyelash_02_02" thumbnail="eyelash/thumb/patten_eyelash_02_02.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/02_02_01.png" />
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="lower" src="eyelash/02_02_02.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 1_01 -->
+		<pattern guid="patten_eyelash_01_01" thumbnail="eyelash/thumb/patten_eyelash_01_01.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/01_01_01.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 1_05 -->
+		<pattern guid="patten_eyelash_01_08" thumbnail="eyelash/thumb/patten_eyelash_01_08.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/01_08_01.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 1_04 -->
+		<pattern guid="patten_eyelash_01_06" thumbnail="eyelash/thumb/patten_eyelash_01_06.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/01_06_01.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 1_03 -->
+		<pattern guid="patten_eyelash_01_05" thumbnail="eyelash/thumb/patten_eyelash_01_05.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/01_05_01.png" />
+			</pattern_mask>
+		</pattern>
+		<!-- 1_02 -->
+		<pattern guid="patten_eyelash_01_03" thumbnail="eyelash/thumb/patten_eyelash_01_03.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/01_03_01.png" />
+			</pattern_mask>
+		</pattern>
+		<pattern guid="patten_eyelash_02_09" thumbnail="eyelash/thumb/patten_eyelash_02_09.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/02_09_01.png" />
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="lower" src="eyelash/02_09_02.png" />
+			</pattern_mask>
+		</pattern>
+		<pattern guid="patten_eyelash_20150210_02_02" thumbnail="eyelash/thumb/patten_eyelash_20150210_02_02.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,363" eyeleft="285,288" eyeright="633,288" eyetop="459,213" position="upper" src="eyelash/20150210_02_02_01.png" />
+				<mask eyebottom="458,363" eyeleft="285,288" eyeright="633,288" eyetop="459,213" position="lower" src="eyelash/20150210_02_02_02.png" />
+			</pattern_mask>
+		</pattern>
+		<pattern guid="patten_eyelash_02_07" thumbnail="eyelash/thumb/patten_eyelash_02_07.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/02_07_01.png" />
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="lower" src="eyelash/02_07_02.png" />
+			</pattern_mask>
+		</pattern>
+		<pattern guid="patten_eyelash_20150115_02_01" thumbnail="eyelash/thumb/patten_eyelash_20150115_02_01.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,363" eyeleft="285,288" eyeright="633,288" eyetop="459,213" position="upper" src="eyelash/20150115_02_01.png" />
+				<mask eyebottom="458,363" eyeleft="285,288" eyeright="633,288" eyetop="459,213" position="lower" src="eyelash/20150115_02_02.png" />
+			</pattern_mask>
+			<tattoo_mask>
+				<mask blend_mode="normal" eyebottom="458,363" eyeleft="285,288" eyeright="633,288" eyetop="459,213" intensity="95" position="lower" side="left" src="eyelash/20150115_02_02_tattoo.png" />
+			</tattoo_mask>
+		</pattern>
+		<pattern guid="patten_eyelash_02_06" thumbnail="eyelash/thumb/patten_eyelash_02_06.jpg">
+			<pattern_mask>
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="upper" src="eyelash/02_06_01.png" />
+				<mask eyebottom="458,362" eyeleft="284,287" eyeright="633,287" eyetop="458,213" position="lower" src="eyelash/02_06_02.png" />
+			</pattern_mask>
+		</pattern>
+	</patterns>
+	<!-- 睫毛顏色 -->
+	<palettes>
+		<palette guid="eyelash_palette_01_01" thumbnail="">
+			<colors>
+				<color>
+					00000000
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_02" thumbnail="">
+			<colors>
+				<color>
+					00262626
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_03" thumbnail="">
+			<colors>
+				<color>
+					003A1F24
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_04" thumbnail="">
+			<colors>
+				<color>
+					004D312E
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_05" thumbnail="">
+			<colors>
+				<color>
+					00031D80
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_06" thumbnail="">
+			<colors>
+				<color>
+					004E62DD
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_07" thumbnail="">
+			<colors>
+				<color>
+					00283C57
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_08" thumbnail="">
+			<colors>
+				<color>
+					004B1757
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_pantone2023" thumbnail="">
+			<colors>
+				<color>
+					00BB2649
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_01_09" thumbnail="">
+			<colors>
+				<color>
+					007B0D17
+				</color>
+			</colors>
+		</palette>
+		<!-- 20160816 -->
+		<palette guid="eyelash_palette_160816_01" thumbnail="">
+			<colors>
+				<color>
+					00d3ba00
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_02" thumbnail="">
+			<colors>
+				<color>
+					00f14d4c
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_03" thumbnail="">
+			<colors>
+				<color>
+					00c62a00
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_04" thumbnail="">
+			<colors>
+				<color>
+					0062a72a
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_05" thumbnail="">
+			<colors>
+				<color>
+					00067c04
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_06" thumbnail="">
+			<colors>
+				<color>
+					00f87f2b
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_07" thumbnail="">
+			<colors>
+				<color>
+					001c5a98
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_08" thumbnail="">
+			<colors>
+				<color>
+					000c084c
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_09" thumbnail="">
+			<colors>
+				<color>
+					006347c2
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_10" thumbnail="">
+			<colors>
+				<color>
+					00a2337d
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_11" thumbnail="">
+			<colors>
+				<color>
+					00b87138
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_160816_12" thumbnail="">
+			<colors>
+				<color>
+					007a411c
+				</color>
+			</colors>
+		</palette>
+		<!-- 20161212 -->
+		<palette guid="eyelash_palette_161212_01" thumbnail="">
+			<colors>
+				<color>
+					00ffffff
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_161212_02" thumbnail="">
+			<colors>
+				<color>
+					004d4d4d
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_161212_03" thumbnail="">
+			<colors>
+				<color>
+					009f9f9f
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_161212_04" thumbnail="">
+			<colors>
+				<color>
+					009f9fbd
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_161212_05" thumbnail="">
+			<colors>
+				<color>
+					00a4854c
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_161212_06" thumbnail="">
+			<colors>
+				<color>
+					00c0a86f
+				</color>
+			</colors>
+		</palette>
+		<palette guid="eyelash_palette_161212_07" thumbnail="">
+			<colors>
+				<color>
+					0087cde5
+				</color>
+			</colors>
+		</palette>
+	</palettes>
+</eye_lash>

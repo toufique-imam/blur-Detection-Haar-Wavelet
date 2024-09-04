@@ -1,0 +1,243 @@
+<blush>
+	<patterns>
+		<pattern guid="patten_blush_01" thumbnail="blush/thumb/patten_blush_01.jpg">
+			<pattern_mask>
+				<mask position="left" src="blush/01_l.png" />
+				<mask position="right" src="blush/01_r.png" />
+			</pattern_mask>
+		</pattern>
+		<pattern guid="patten_blush_02" thumbnail="blush/thumb/patten_blush_02.jpg">
+			<pattern_mask>
+				<mask position="left" src="blush/02_l.png" />
+				<mask position="right" src="blush/02_r.png" />
+			</pattern_mask>
+		</pattern>
+		<pattern guid="patten_blush_03" thumbnail="blush/thumb/patten_blush_03.jpg">
+			<pattern_mask>
+				<mask position="left" src="blush/03_l.png" />
+				<mask position="right" src="blush/03_r.png" />
+			</pattern_mask>
+		</pattern>
+		<pattern guid="patten_blush_04" thumbnail="blush/thumb/patten_blush_04.jpg">
+			<pattern_mask>
+				<mask position="left" src="blush/04_l.png" />
+				<mask position="right" src="blush/04_r.png" />
+			</pattern_mask>
+		</pattern>
+	</patterns>
+	<!-- 腮紅顏色 -->
+	<palettes>
+		<!-- old -->
+		<palette guid="blush_palette_01_03" thumbnail="">
+			<colors>
+				<color>
+					00ff65a1
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_02" thumbnail="">
+			<colors>
+				<color>
+					00fb4e92
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_01" thumbnail="">
+			<colors>
+				<color>
+					00fc288f
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_04" thumbnail="">
+			<colors>
+				<color>
+					00ee8fda
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_05" thumbnail="">
+			<colors>
+				<color>
+					009c0004
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_06" thumbnail="">
+			<colors>
+				<color>
+					00ff0000
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_07" thumbnail="">
+			<colors>
+				<color>
+					00ff4c00
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_08" thumbnail="">
+			<colors>
+				<color>
+					00fa4c3d
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_09" thumbnail="">
+			<colors>
+				<color>
+					00ff7748
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_10" thumbnail="">
+			<colors>
+				<color>
+					00d93150
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_11" thumbnail="">
+			<colors>
+				<color>
+					00e73656
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_12" thumbnail="">
+			<colors>
+				<color>
+					00c0415e
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_13" thumbnail="">
+			<colors>
+				<color>
+					00eb5e6d
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_14" thumbnail="">
+			<colors>
+				<color>
+					00ef7b88
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_15" thumbnail="">
+			<colors>
+				<color>
+					00d35e78
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_16" thumbnail="">
+			<colors>
+				<color>
+					00d97188
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_17" thumbnail="">
+			<colors>
+				<color>
+					00e28b9c
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_18" thumbnail="">
+			<colors>
+				<color>
+					00a32e24
+				</color>
+			</colors>
+		</palette>
+		<!-- new -->
+		<palette guid="blush_palette_01_19" thumbnail="">
+			<colors>
+				<color>
+					00ffa27a
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_20" thumbnail="">
+			<colors>
+				<color>
+					00e88459
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_21" thumbnail="">
+			<colors>
+				<color>
+					00cd643a
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_22" thumbnail="">
+			<colors>
+				<color>
+					00a4491f
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_23" thumbnail="">
+			<colors>
+				<color>
+					00eba050
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_24" thumbnail="">
+			<colors>
+				<color>
+					00d1823c
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_25" thumbnail="">
+			<colors>
+				<color>
+					00b26100
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_26" thumbnail="">
+			<colors>
+				<color>
+					00965500
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_27" thumbnail="">
+			<colors>
+				<color>
+					00ffb8c0
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_28" thumbnail="">
+			<colors>
+				<color>
+					00eb98ac
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_29" thumbnail="">
+			<colors>
+				<color>
+					00b85872
+				</color>
+			</colors>
+		</palette>
+		<palette guid="blush_palette_01_30" thumbnail="">
+			<colors>
+				<color>
+					00903243
+				</color>
+			</colors>
+		</palette>
+	</palettes>
+</blush>
