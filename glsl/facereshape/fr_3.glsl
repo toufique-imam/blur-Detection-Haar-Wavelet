@@ -66,8 +66,9 @@ void main() {
         return;
     } else {
         vec3 dst_color = source;
+        vec4 testColor = vec4(texture2D(blend_weight_and_level_map_texture, lipstick_texture_coordinate).b);
         float alpha = texture2D(lipstick_texture, lipstick_texture_coordinate).r * float(enable_lipstick);
-        float contrast_mask = texture2D(lipstick_texture, lipstick_texture_coordinate).g * alpha;
+        float contrast_mask = texture2D(lipstick_texture, lipstick_texture_coordinate).g;
         float gloss = texture2D(lipstick_texture, lipstick_texture_coordinate).b * float(enable_lipstick);
         float gray = 0.299 * source.r + 0.587 * source.g + 0.114 * source.b;
         float contrast = max(min((gray * gloss_contrast_scale + gloss_contrast_shift) * contrast_mask + 0.5 * (1.0 - contrast_mask), 1.0), 0.0);
@@ -81,12 +82,13 @@ void main() {
         float blend_weight = texture2D(blend_weight_and_level_map_texture, vec2(gray, 0)).r;
         float level_weight_0 = texture2D(blend_weight_and_level_map_texture, vec2(gray, 0)).g;
         float level_weight_1 = texture2D(blend_weight_and_level_map_texture, vec2(gray, 0)).b;
+        testColor = vec4(gloss, gloss, gloss, 1.0);
         if (lipstick_layer_count == 1) {
             float level_weight = level_weight_0 * alpha;
             vec3 color = mix(lipstick_color_0 * source, lipstick_color_0, blend_weight);
             dst_color = mix(source, color, level_weight);
         } else if (lipstick_layer_count == 2) {
-            if (lipstick_is_upper_lower_omber == 0) { 
+            if (lipstick_is_upper_lower_omber == 0) {
                 float level_weight = mix(level_weight_1, level_weight_0, alpha_0) * alpha;
                 vec3 color = mix(lipstick_color_1, lipstick_color_0, alpha_0);
                 color = mix(color * source, color, blend_weight);
