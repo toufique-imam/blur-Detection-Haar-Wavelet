@@ -9,7 +9,8 @@ varying vec2 lipstick_texture_coordinate;
 uniform sampler2D inputImageTexture;
 uniform sampler2D lipstick_texture;
 uniform sampler2D lipstick_layer_texture;
-
+uniform sampler2D lipstick_median_texture;
+uniform sampler2D lipstick_shimmer_texture;
 uniform sampler2D blend_weight_and_level_map_texture;
 uniform vec3 lipstick_color_0;
 uniform vec3 lipstick_color_1;
@@ -19,8 +20,12 @@ uniform float gloss_contrast_scale;
 uniform float gloss_contrast_shift;
 uniform float gloss_contrast_shrink;
 uniform float force_bright_threshold;
+uniform float use_median;
+uniform float shimmer_normalize_factor;
 uniform int enable_lipstick;
-
+uniform int enable_color_shimmer;
+uniform vec3 shimmer_color;
+uniform float shimmer_intensity;
 const lowp float flt_epsilon = 0.001;
 vec3 RGBtoHCV(vec3 rgb) {
     vec4 p = (rgb.g < rgb.b) ? vec4(rgb.bg, -1.0, 0.66666667) : vec4(rgb.gb, 0.0, -0.33333333);
@@ -60,9 +65,6 @@ void main() {
         gl_FragColor = vec4(source, 1.0);
         return;
     } else {
-        gl_FragColor = texture2D(lipstick_texture, textureCoordinate).b;
-        return;
-    
         vec3 dst_color = source;
         float alpha = texture2D(lipstick_texture, lipstick_texture_coordinate).r * float(enable_lipstick);
         float contrast_mask = texture2D(lipstick_texture, lipstick_texture_coordinate).g * alpha;
@@ -71,9 +73,6 @@ void main() {
         float contrast = max(min((gray * gloss_contrast_scale + gloss_contrast_shift) * contrast_mask + 0.5 * (1.0 - contrast_mask), 1.0), 0.0);
         if (contrast < 0.5)
             contrast = 0.5 - (0.5 - contrast) * gloss_contrast_shrink;
-        // if (use_median > 0.5) {
-        //     gray = texture2D(lipstick_median_texture, lipstick_texture_coordinate).r;
-        // }
         float alpha_0 = texture2D(lipstick_layer_texture, lipstick_texture_coordinate).r;
         float alpha_1 = texture2D(lipstick_layer_texture, lipstick_texture_coordinate).g;
         float blend_weight = texture2D(blend_weight_and_level_map_texture, vec2(gray, 0)).r;
@@ -112,7 +111,7 @@ void main() {
         dst_color.g = HardLight(dst_color.g, contrast);
         dst_color.b = HardLight(dst_color.b, contrast);
         dst_color = vec3(1.0) - (vec3(1.0) - dst_color) * vec3(1.0 - gloss);
-        float transition_ratio = (min(max(abs(lipstick_texture_coordinate.x - 0.5), 0.083), 0.5) - 0.083) / 0.417;
+        // float transition_ratio = (min(max(abs(lipstick_texture_coordinate.x - 0.5), 0.083), 0.5) - 0.083) / 0.417;
         // float luma_weight = gray * shimmer_normalize_factor;
         // float shimmer_weight = 1.0 - 0.3 * transition_ratio;
         // float shimmer = texture2D(lipstick_shimmer_texture, lipstick_texture_coordinate).r * alpha;
